@@ -1,10 +1,10 @@
-# 🛡️ Agentic Code Reviewer — Multi-Agent PR & Diff Analysis Engine
+#  Agentic Code Reviewer — Multi-Agent PR & Diff Analysis Engine
 
 An enterprise-grade **Agentic AI Code Review System** built with **FastAPI**, **Streamlit**, and a **Multi-Step Agentic Orchestration Pipeline**. Designed to review GitHub Pull Requests and raw `git diff` patches with line-level precision, low false-positive rates, context-window chunking, and exponential-backoff fault tolerance.
 
 ---
 
-## 🚀 Key Features & Architecture
+##  Key Features & Architecture
 
 1. **Multi-Step Agentic Workflow (4-Stage Pipeline):**
    - **Stage 1: Diff Parser & Semantic Change Analyzer:** Parses unified Git diffs, maps exact line numbers, and summarizes AST/structural intent.
@@ -23,7 +23,7 @@ An enterprise-grade **Agentic AI Code Review System** built with **FastAPI**, **
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Backend:** Python 3.11+, FastAPI, Pydantic, Uvicorn, Requests (GitHub REST API v3)
 - **Agent Orchestration:** Custom Multi-Agent State Graph, AST Static Analyzer, Token Chunking Engine, Tenacity-style Retry Decorator
 - **Frontend UI:** Streamlit with Custom HTML/CSS Dark-Mode Developer Dashboard
@@ -31,7 +31,7 @@ An enterprise-grade **Agentic AI Code Review System** built with **FastAPI**, **
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 Agentic-Code-Reviewer/
 ├── backend/
@@ -58,7 +58,7 @@ Agentic-Code-Reviewer/
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. Clone & Install Dependencies
 ```bash
@@ -84,7 +84,7 @@ python benchmarks/evaluate_historical_bugs.py
 
 ---
 
-## 📊 Benchmark Results (Historical Open-Source Commits)
+##  Benchmark Results (Historical Open-Source Commits)
 | Metric | Score / Count |
 | :--- | :--- |
 | **Actual Bugs Caught (True Positives)** | **42 / 46 (91.3% Recall)** |
